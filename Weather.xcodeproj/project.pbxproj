@@ -12,6 +12,7 @@
 		471ADDA421F1BAEE0098A270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471ADDA221F1BAEE0098A270 /* Main.storyboard */; };
 		471ADDA621F1BAEF0098A270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 471ADDA521F1BAEF0098A270 /* Assets.xcassets */; };
 		471ADDA921F1BAEF0098A270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471ADDA721F1BAEF0098A270 /* LaunchScreen.storyboard */; };
+		47E59F6621F29E7C00EA6364 /* WeatherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E59F6521F29E7C00EA6364 /* WeatherTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		471ADDA521F1BAEF0098A270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		471ADDA821F1BAEF0098A270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		471ADDAA21F1BAEF0098A270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E59F6521F29E7C00EA6364 /* WeatherTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				471ADD9E21F1BAEE0098A270 /* AppDelegate.swift */,
 				471ADDA021F1BAEE0098A270 /* ViewController.swift */,
 				471ADDA221F1BAEE0098A270 /* Main.storyboard */,
+				47E59F6521F29E7C00EA6364 /* WeatherTableViewController.swift */,
 				471ADDA521F1BAEF0098A270 /* Assets.xcassets */,
 				471ADDA721F1BAEF0098A270 /* LaunchScreen.storyboard */,
 				471ADDAA21F1BAEF0098A270 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				471ADDA121F1BAEE0098A270 /* ViewController.swift in Sources */,
+				47E59F6621F29E7C00EA6364 /* WeatherTableViewController.swift in Sources */,
 				471ADD9F21F1BAEE0098A270 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DWLB8C4BG;
 				INFOPLIST_FILE = Weather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DWLB8C4BG;
 				INFOPLIST_FILE = Weather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
